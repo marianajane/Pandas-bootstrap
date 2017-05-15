@@ -2,3 +2,15 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+.header {
+    margin-bottom: 30px;
+}
+
+.center p {
+	text-align: center;
+}
+
+.justify p{
+	text-align: justify;
+}
