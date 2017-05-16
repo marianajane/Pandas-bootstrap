@@ -20,11 +20,11 @@ function eliminaPanda(){
 	this.style.display="none";
 }
 
-function mostrarPandas() {
-	panda1.style.display="flex";
-	panda2.style.display="flex";
-	panda3.style.display="flex";
-	panda4.style.display="flex";
+function mostrarPandas(){
+	panda1.style.display="block";
+	panda2.style.display="block";
+	panda3.style.display="block";
+	panda4.style.display="block";
 }
 
 //Botones intermedios y párrafos
@@ -53,20 +53,3 @@ function mostrarOcultarp2() {
 		parr2.style.display = "flex";
 	}
 }
-
-/*var botonOrigen=document.getElementById("origenTxt");
-botonOrigen.addEventListener("click", ocultarParrafo);
-botonOrigen.addEventListener("click", mostrarParrafo);
-
-var botonExtincion=document.getElementById("extincionTxt");
-botonExtincion.addEventListener("click", ocultarParrafo);
-botonExtincion.addEventListener("click", mostrarParrafo);
-
-function ocultarParrafo() { 
-	par1.style.display = "none";
-	par2.style.display = "none";
-}
-function mostrarParrafo() { 
-	par1.style.display = "flex";
-	par2.style.display = "flex";
-}*/
